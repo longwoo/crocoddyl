@@ -16,7 +16,7 @@ Contact RObot COntrol by Differential DYnamic programming Library (crocoddyl)
 ## <img align="center" height="20" src="https://i.imgur.com/vAYeCzC.png"/> Introduction
 
 **[Crocoddyl](https://cmastalli.github.io/publications/crocoddyl20icra.html)** is an optimal control library for robot control under contact sequence.
-Its solver is based on an efficient Differential Dynamic Programming (DDP) algorithm.
+Its solvers are based on novel and efficient Differential Dynamic Programming (DDP) algorithms.
 **Crocoddyl** computes optimal trajectories along with optimal feedback gains.
 It uses **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)** for fast computation of robots dynamics and their analytical derivatives.
 
@@ -51,7 +51,7 @@ If you want to follow the current developments, you can directly refer to the [d
  * Euclidian and non-Euclidian geometry friendly via **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)**
  * handle autonomous and nonautomous dynamical systems
  * numerical differentiation support
-<!-- * automatic differentiation support -->
+ * automatic differentiation support
 
 **Crocoddyl** is efficient and flexible:
 
@@ -60,8 +60,7 @@ If you want to follow the current developments, you can directly refer to the [d
  * Python bindings (including models and solvers abstractions)
  * C++ 98/11/14/17/20 compliant
  * extensively tested
- <!-- * automatic code generation support -->
- 
+ * automatic code generation support
 
 ### Installation through robotpkg
 
@@ -207,4 +206,5 @@ The following people have been involved in the development of **Crocoddyl**:
 
 ## Acknowledgments
 
-The development of **Crocoddyl** is supported by the [EU MEMMO project](http://www.memmo-project.eu/), the [Gepetto team](http://projects.laas.fr/gepetto/) [@LAAS-CNRS](http://www.laas.fr), and the [Statistical Machine Learning and Motor Control Group](http://wcms.inf.ed.ac.uk/ipab/slmc) [@University of Edinburgh](https://www.edinburgh-robotics.org/).
+The development of **Crocoddyl** is supported by the [EU MEMMO project](http://www.memmo-project.eu/), and the [EU RoboCom++ project](http://robocomplusplus.eu/).
+It is maintained by the [Gepetto team](http://projects.laas.fr/gepetto/) [@LAAS-CNRS](http://www.laas.fr), and the [Statistical Machine Learning and Motor Control Group](http://wcms.inf.ed.ac.uk/ipab/slmc) [@University of Edinburgh](https://www.edinburgh-robotics.org/).
